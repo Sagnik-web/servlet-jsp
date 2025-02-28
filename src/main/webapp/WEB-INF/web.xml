@@ -24,4 +24,17 @@
   	<url-pattern>/sq</url-pattern>
   </servlet-mapping>
   
+  
+  
+    <servlet>
+  	<servlet-name>reg</servlet-name>
+  	<servlet-class>myweb.sb.register.controller.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>reg</servlet-name>
+  	<url-pattern>/view/register</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
